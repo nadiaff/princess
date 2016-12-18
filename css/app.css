@@ -1,0 +1,278 @@
+/*
+* Web Fonts from fontspring.com
+* All OpenType features and all extended glyphs have been removed.
+* Fully installable fonts can be purchased at http://www.fontspring.com
+ 
+* The fonts included in this stylesheet are subject to the End User License you purchased
+* from Fontspring. The fonts are protected under domestic and international trademark and 
+* copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+* distributing this font software.
+ 
+* (c) 2010-2016 Fontspring
+ 
+* The fonts included are copyrighted by the vendor listed below.
+* Vendor:      Typodermic Fonts Inc. 
+* License URL: https://www.fontspring.com/licenses/typodermic/webfont
+*/
+
+@font-face {
+	font-family: 'joystixproportional';
+	src: url('font/joystix_proportional-webfont.eot');
+	src: url('font/joystix_proportional-webfont.eot?#iefix') 
+	format('embedded-opentype'),
+	url('font/joystix_proportional-webfont.woff2') format('woff2'),
+	url('font/joystix_proportional-webfont.woff') format('woff'),
+	url('font/joystix_proportional-webfont.ttf') format('truetype'),
+	url('font/joystix_proportional-webfont.svg#joystixproportional') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+/* --Retro Aesthetics-- */
+
+/* --Noonye Colors-- */
+/* Yellow
+
+#f8fb56;
+#ffde5a;
+#fbfa00;
+
+*/
+
+/* Pink
+
+#ff737b;
+#fd81bf;
+
+*/
+
+/* *~*~*~*~*~*~*~*~*~*~*~*~* */
+
+/* --Page Styles-- */
+
+/* *~*~*~*~*~*~*~*~*~*~*~*~* */
+
+/* Fonts & Colors */
+
+/* Page Colors */
+
+/* Page Background must be black so as to emulate a screen & Font to Joystix for ultimate retro feeling*/
+body {
+	background-color:black;
+	color:white;
+	font-family: 'joystixproportional';
+	
+}
+
+/* Make Links Noonye Yellow */
+a  {
+	color: #ffde5a;
+}
+a:hover, a:focus {
+	color: #c5a62b;
+}
+
+/* Font & Headers */
+
+/* Give a margin to the h1 page title */
+h1 {
+	margin-top:.5rem;
+}
+
+/* Set  */
+h1, h2, h3, h4, h5, p, li, .menu a, .button, .title-bar-title {
+	font-family: 'joystixproportional';
+}
+
+/* Headers on Large Screens */
+@media screen and (min-width: 40em) {
+	h2 {
+		font-size: 2rem;
+	}
+}
+
+/* Headers on Medium Screens */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+
+/* Headers on Small Screens */
+@media screen and (max-width: 42em) {
+	h1 {
+		font-size:1.5rem;
+	}
+}
+
+/* Center h5 for World Select Page, make it smaller */
+h5 {
+	text-align:center;
+	font-size:1rem;
+}
+
+/* Horizontal Rule Styles */
+hr {
+	margin-top:.5rem;
+	margin-bottom:.5rem;
+}
+
+/* --End Page Styles-- */
+
+
+/* *~*~*~*~*~*~*~*~*~*~*~*~* */
+
+/* --Menu Styles-- */
+
+/* *~*~*~*~*~*~*~*~*~*~*~*~* */
+
+
+/* --Top Navigation Menu Styles-- */
+/* Darken menu bar so that links show up properly */
+.top-bar, .top-bar ul, .title-bar {
+	background-color: #7f8180;
+}
+
+.top-bar {
+	padding:.2rem 0rem;
+}
+
+/* Make nav links on top bar smaller */
+.menu > li > a {
+	font-size: .9rem;
+}
+
+/* Remove bold from Menu on small screens */
+.title-bar-title {
+	font-weight: normal;
+}
+
+
+/* Insert Quarter Menu Button Styles*/
+/* Remove right padding on title bar to remove space between insert quarter button and right side of screen */
+.titleBar {
+	padding-right:0;
+	padding-left:0;
+}
+/* Add margin to top-bar-title so title doesn't bump up against left side of screen */
+.top-bar-title {
+	margin-left:0.625rem;
+}
+
+/* On Medium and Up Screens have Top Bar Right with Insert Quarter button float right */
+@media screen and (min-width: 40em) {
+	.titleBar > .top-bar-right {
+		float:right;
+	}
+}
+
+/* Insert Quarter Stylings on Smaller Screens */
+@media screen and (max-width: 35rem) {
+	/* Float top-bar-right to the left */
+	.titleBar > .top-bar-right {
+		float:left;
+		width:100%;
+		background-color: #f3545d;
+	}
+	
+	/* Resize button to full width of screen and remove space between it and the menu */
+	.titleBar > .top-bar-right > .button {
+		text-align:left;
+		margin-bottom:0;
+	}	
+}
+/* End Insert Quarter button stylings */
+
+
+/* Login/Register Menu Item Styles */
+@media screen and (max-width: 50em) {
+    .top-bar.stacked-for-medsmall .top-bar-left,.top-bar.stacked-for-medsmall .top-bar-right {
+		width: 100%; 
+	} 
+}
+/* End Login/Register Menu Item Styles */
+
+/* --End Top Navigation Menu Styles-- */ 
+
+
+/* --Footer Menu Styles-- */
+/* Remove Top Bar background color from Footer Bar */
+.footerBar, .footerBar ul {
+	background-color: #000;
+}
+
+/* Remove Top Bar font-size styling from Footer Bar */
+.footerBar .menu > li > a {
+	font-size: inherit; 
+}
+
+/* Add padding to p element so it matches a element for non-links */
+.menu > li > p {
+	padding: 0.7rem 1rem;
+}
+/* End Footer Menu Styles */
+
+
+/* --Heart Shaped Bullet Point Menus-- */
+.heartMenu {
+	margin-left:0;
+	list-style-position: inside;
+	list-style-image: url('img/heart-element-xsmall.png');
+}
+
+.heartMenu li, .heartMenu li a {
+	font-size:1 rem;
+	color:white;
+}
+.heartMenu li a:focus, .heartMenu li a:hover {
+	color:#d4d1d1;
+}
+
+@media screen and (min-width: 40em) {
+	.heartMenu li {
+		font-size:1.5rem;
+		
+	}
+}
+
+
+/* --End Heart Shaped Bullet Point Menu-- */
+/* --End Menu Styles-- */
+
+
+/* --Button Styles-- */
+
+/* Pink button background ... pink is color of princess!! */
+.button {
+	background-color: #f3545d;
+	color: #fff;
+}
+ .button:hover, .button:focus {
+	background-color: #d54a52;
+    color: #fff; 
+}
+
+/* Audio Player Styles */
+/*.player-wrapper p {
+	text-align:center;
+	margin-top:.5rem;
+	margin-bottom:0;
+}*/
+
+.jp-interface {
+	text-align:center;
+	width:80%;
+}
+
+
+/* Give the Progress Bar a shape so it actually appears in the interface */
+.jp-progress {
+	background-color: white;
+    color: white;
+	margin-left:10rem;
+    width: 20rem;
+    height: 1rem;
+}
