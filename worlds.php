@@ -7,17 +7,17 @@
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/foundation-icons.css">
+		<link rel="stylesheet" href="css/mediaelementplayer.css">
 		<link rel="stylesheet" href="css/app.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
+
 
 				
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
+		<script src="js/mediaelement-and-player.min.js"></script>
 		<script>
 		  $(document).ready(function($) {
 			  $(document).foundation();
-			  $('.foundation-player.no-1').foundationPlayer();
 			});
 		</script>
 
@@ -93,14 +93,7 @@
 		<br />
 		<br />
 		<!-- Start Audio Player -->
-		<?php include 'php/audioplayer.php'; ?>
-					<audio>
-						<source src='audio/Visager_-_02_-_Royal_Entrance.mp3'>
-					</audio>
-				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAY SONG!</p>
-			</div>
-		</div>
+		
 		<!-- End Audio Player -->
 		
 		<!-- Start Footer -->

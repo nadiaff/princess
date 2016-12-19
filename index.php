@@ -7,45 +7,62 @@
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/foundation-icons.css">
-		<!--<link href="skin/pink.flag/jplayer.pink.flag.css" rel="stylesheet" />-->
+		<link rel="stylesheet" href="css/mediaelementplayer.css">
 		<link rel="stylesheet" href="css/app.css">
-		<!--<link rel="stylesheet" href="css/foundation-player.css">-->
 
 				
 		<script src="js/vendor/jquery.js"></script>
-		<script src="js/vendor/jquery.jplayer.min.js"></script>
+		<script src="js/mediaelement-and-player.min.js"></script>
 		<script src="js/vendor/foundation.js"></script>
 		
-		<!--<script src="js/foundation-player.js"></script>
 		<script>
 		  $(document).ready(function($) {
-			  $(document).foundation();
-			  $('.foundation-player.no-1').foundationPlayer();
+				$(document).foundation();
+				// using jQuery
+				$('video,audio').mediaelementplayer(
+					defaultVideoWidth: 480,
+					// if the <video height> is not specified, this is the default
+					defaultVideoHeight: 270,
+					// if set, overrides <video width>
+					videoWidth: -1,
+					// if set, overrides <video height>
+					videoHeight: -1,
+					// width of audio player
+					audioWidth: 400,
+					// height of audio player
+					audioHeight: 30,
+					// initial volume when the player starts
+					startVolume: 0.8,
+					// useful for <audio> player loops
+					loop: false,
+					// enables Flash and Silverlight to resize to content size
+					enableAutosize: true,
+					// the order of controls you want on the control bar (and other plugins below)
+					features: ['playpause','progress','current','duration','tracks','volume','fullscreen'],
+					// Hide controls when playing and mouse is not over the video
+					alwaysShowControls: false,
+					// force iPad's native controls
+					iPadUseNativeControls: false,
+					// force iPhone's native controls
+					iPhoneUseNativeControls: false, 
+					// force Android's native controls
+					AndroidUseNativeControls: false,
+					// forces the hour marker (##:00:00)
+					alwaysShowHours: false,
+					// show framecount in timecode (##:00:00:00)
+					showTimecodeFrameCount: false,
+					// used when showTimecodeFrameCount is set to true
+					framesPerSecond: 25,
+					// turns keyboard support on and off for this instance
+					enableKeyboard: true,
+					// when this player starts, it will pause other players
+					pauseOtherPlayers: true,
+					// array of keyboard commands
+					keyActions: []
+				);
 			}); 
-		</script>-->
-		<script type="text/javascript">
-			$(document).ready(function(){
-			  $(document).foundation();
-			  $("#jquery_jplayer_1").jPlayer({
-				ready: function () {
-				  $(this).jPlayer("setMedia", {
-					title: "Bubble",
-					m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
-					oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
-				  });
-				},
-				cssSelectorAncestor: "#jp_container_1",
-				swfPath: "/js",
-				supplied: "m4a, oga",
-				useStateClassSkin: true,
-				autoBlur: false,
-				smoothPlayBar: true,
-				keyEnabled: true,
-				remainingDuration: true,
-				toggleDuration: true
-			  });
-			});
-		  </script>
+		</script>
+		
 	</head>
 	<body>
   
@@ -96,12 +113,12 @@
 		
 		<!-- Start Audio Player -->
 		<div class="columns row">
-			
+			<audio>
+				<source src='audio/Visager_-_02_-_Royal_Entrance.mp3'>
+			</audio>
 		</div>
 		<?php //include 'php/audioplayer.php'; ?>
-		<!--			<audio>
-						<source src='audio/Visager_-_02_-_Royal_Entrance.mp3'>
-					</audio>
+		<!--		
 				</div>
 				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAY SONG!</p>
 			</div>
