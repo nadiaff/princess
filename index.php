@@ -7,18 +7,32 @@
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/foundation-icons.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
 		<link rel="stylesheet" href="css/foundation-player.css">
 		<link rel="stylesheet" href="css/app.css">
-
+		
 
 				
 		<script src="js/vendor/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
 		<script src="js/vendor/foundation.js"></script>
 		<script src="js/foundation-player.js"></script>
 		<script>
-		  $(document).ready(function($) {
-			  $(document).foundation();
-			  $('.foundation-player.no-1').foundationPlayer();
+			$(document).ready(function($) {
+				 $(document).foundation();
+				 $('.foundation-player.no-1').foundationPlayer();
+				 $('#audioSlider').slider({
+					orientation: "horizontal",
+					value: audio1.volume,
+					min: 0,
+					max: 1,
+					range: 'min',
+					animate: true,
+					step: .1,
+					slide: function(e, ui) {
+						audio1.volume = ui.value;
+					}
+				});
 			});
 		</script>
 
@@ -71,12 +85,8 @@
 		</div>
 		
 		<!-- Start Audio Player -->
-		<!--<div class="columns row">
-			<audio src="audio/Visager_-_02_-_Royal_Entrance.mp3">
-				<p>Your browser does not support the <code>audio</code> element </p>
-			</audio>
-		</div>-->
 		<div class="row column">
+			
 			<div class='player-wrapper'>
 				<div class='foundation-player no-1'>
 					<ul class='player menu simple noselect'>
@@ -86,23 +96,24 @@
 						<li class='player-button rewind'>
 							<em class='fi-refresh'></em>
 						</li>
-						<li class='player-button volume'>
-							<em class='fi-volume'></em>
-						</li>
-						<li class='player-status time'>
-							<span class='elapsed'>00:00</span>
-						</li>
 						<li class='player-progress'>
 							<div class='progress round' role='progressbar'>
 								<div class='progress-meter played'></div>
 							</div>
 						</li>
 						<li class='player-status time'>
-							<span class='remains'>-00:00</span>
+							<span class='elapsed'>00:00</span>
+						</li>
+						<li class='player-button volume'>
+							<em class='fi-volume'></em>
+						</li>
+						<li class="volume-slider">
+							<div id="audioSlider"></div>
 						</li>
 					</ul>
+					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop></audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAY SONG!</p>
+				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->
