@@ -127,11 +127,18 @@ h5 {
 	font-size:1rem;
 }
 
+/* Tooltips */
+.tooltip {
+	min-width: 20rem;
+	max-width: 30rem !important;
+}
+
 /* Horizontal Rule Styles */
 hr {
 	margin-top:.5rem;
 	margin-bottom:.5rem;
 }
+
 
 /* --End Page Styles-- */
 
@@ -332,4 +339,9 @@ a.ui-button:active,
 .player-wrapper > p {
 	text-align:center;
     margin-top:0.5rem;
+}
+
+/* Image Styles */
+.thumbnail {
+	margin-bottom: 3rem;
 }

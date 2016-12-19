@@ -121,7 +121,7 @@
 					</ul>
 					<audio id="audio1" src="audio/Bit_Quest.mp3" autoplay loop></audio>
 				</div>
-				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <a href="#">SEE LICENSE</a>.</p>
+				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <span data-tooltip aria-haspopup="true" class="has-tip " title="Bit Quest Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/"><a href="http://creativecommons.org/licenses/by/3.0/">SEE LICENSE</a></span>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->
