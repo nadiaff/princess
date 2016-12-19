@@ -46,7 +46,7 @@
 					</div>
 					<div class="column">
 						<h5>ORIGIN OF PRINCESS</h5>
-						<img class="thumbnail" src="img/question_square.png">
+						<img class="thumbnail" src="img/origin-of-princess-preview.png">
 					</div>
 					<div class="column">
 						<h5>OH! THE GALACTIC!!</h5>
@@ -121,7 +121,7 @@
 					</ul>
 					<audio id="audio1" src="audio/Bit_Quest.mp3" autoplay loop></audio>
 				</div>
-				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! HERE IS LICENSE INFO!</p>
+				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <a href="#">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->
@@ -129,8 +129,6 @@
 		<!-- Start Footer -->
 		<?php include 'php/footer.php'; ?>
 		<!-- End Footer -->
-
-	
 
 	</body>
 </html>
