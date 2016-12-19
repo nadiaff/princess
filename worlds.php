@@ -119,9 +119,9 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Ambler.mp3" autoplay loop></audio>
+					<audio id="audio1" src="audio/Bit_Quest.mp3" autoplay loop></audio>
 				</div>
-				<p><a href="http://incompetech.com/music/packs.html">'AMBLER'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! HERE IS LICENSE INFO!</p>
+				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! HERE IS LICENSE INFO!</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->
