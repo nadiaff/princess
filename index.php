@@ -7,64 +7,21 @@
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/mediaelementplayer.css">
+		<link rel="stylesheet" href="css/foundation-player.css">
 		<link rel="stylesheet" href="css/app.css">
+
 
 				
 		<script src="js/vendor/jquery.js"></script>
-		<script src="js/mediaelement-and-player.min.js"></script>
 		<script src="js/vendor/foundation.js"></script>
-		
+		<script src="js/foundation-player.js"></script>
 		<script>
 		  $(document).ready(function($) {
-				$(document).foundation();
-
-			}); 
-			$('video, audio').mediaelementplayer({
-				// if the <video width> is not specified, this is the default
-				defaultVideoWidth: 480,
-				// if the <video height> is not specified, this is the default
-				defaultVideoHeight: 270,
-				// if set, overrides <video width>
-				videoWidth: -1,
-				// if set, overrides <video height>
-				videoHeight: -1,
-				// width of audio player
-				audioWidth: 400,
-				// height of audio player
-				audioHeight: 30,
-				// initial volume when the player starts
-				startVolume: 0.8,
-				// useful for <audio> player loops
-				loop: false,
-				// enables Flash and Silverlight to resize to content size
-				enableAutosize: true,
-				// the order of controls you want on the control bar (and other plugins below)
-				features: ['playpause','progress','current','duration','tracks','volume','fullscreen'],
-				// Hide controls when playing and mouse is not over the video
-				alwaysShowControls: false,
-				// force iPad's native controls
-				iPadUseNativeControls: false,
-				// force iPhone's native controls
-				iPhoneUseNativeControls: false, 
-				// force Android's native controls
-				AndroidUseNativeControls: false,
-				// forces the hour marker (##:00:00)
-				alwaysShowHours: false,
-				// show framecount in timecode (##:00:00:00)
-				showTimecodeFrameCount: false,
-				// used when showTimecodeFrameCount is set to true
-				framesPerSecond: 25,
-				// turns keyboard support on and off for this instance
-				enableKeyboard: true,
-				// when this player starts, it will pause other players
-				pauseOtherPlayers: true,
-				// array of keyboard commands
-				keyActions: []
-			 
+			  $(document).foundation();
+			  $('.foundation-player.no-1').foundationPlayer();
 			});
 		</script>
-		
+
 	</head>
 	<body>
   
@@ -114,17 +71,40 @@
 		</div>
 		
 		<!-- Start Audio Player -->
-		<div class="columns row">
-			<audio>
-				<source src='audio/Visager_-_02_-_Royal_Entrance.mp3'>
+		<!--<div class="columns row">
+			<audio src="audio/Visager_-_02_-_Royal_Entrance.mp3">
+				<p>Your browser does not support the <code>audio</code> element </p>
 			</audio>
-		</div>
-		<?php //include 'php/audioplayer.php'; ?>
-		<!--		
+		</div>-->
+		<div class="row column">
+			<div class='player-wrapper'>
+				<div class='foundation-player no-1'>
+					<ul class='player menu simple noselect'>
+						<li class='player-button play'>
+							<em class='fi-music'></em>
+						</li>
+						<li class='player-button rewind'>
+							<em class='fi-refresh'></em>
+						</li>
+						<li class='player-button volume'>
+							<em class='fi-volume'></em>
+						</li>
+						<li class='player-status time'>
+							<span class='elapsed'>00:00</span>
+						</li>
+						<li class='player-progress'>
+							<div class='progress round' role='progressbar'>
+								<div class='progress-meter played'></div>
+							</div>
+						</li>
+						<li class='player-status time'>
+							<span class='remains'>-00:00</span>
+						</li>
+					</ul>
 				</div>
 				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAY SONG!</p>
 			</div>
-		</div>-->
+		</div>
 		<!-- End Audio Player -->
 		
 		<!-- Start Footer -->
