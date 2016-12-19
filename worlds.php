@@ -65,11 +65,11 @@
 						<img class="thumbnail" src="img/question_square.png">
 					</div>
 					<div class="column">
-						<h5>OH! PRINCESS HOUSE!!</h5>
+						<h5>PAKU PAKU PRINCESS</h5>
 						<img class="thumbnail" src="img/question_square.png">
 					</div>
 					<div class="column">
-						<h5>?</h5>
+						<h5>OH! PRINCESS HOUSE!!</h5>
 						<img class="thumbnail" src="img/question_square.png">
 					</div>
 					<div class="column">
@@ -94,7 +94,36 @@
 		<br />
 		<br />
 		<!-- Start Audio Player -->
-		
+		<div class="row column">	
+			<div class='player-wrapper'>
+				<div class='foundation-player no-1'>
+					<ul class='player menu simple noselect'>
+						<li class='player-button play'>
+							<em class='fi-music'></em>
+						</li>
+						<li class='player-button rewind'>
+							<em class='fi-refresh'></em>
+						</li>
+						<li class='player-progress'>
+							<div class='progress round' role='progressbar'>
+								<div class='progress-meter played'></div>
+							</div>
+						</li>
+						<li class='player-status time'>
+							<span class='elapsed'>00:00</span>
+						</li>
+						<li class='player-button volume'>
+							<em class='fi-volume'></em>
+						</li>
+						<li class="volume-slider">
+							<div id="audioSlider"></div>
+						</li>
+					</ul>
+					<audio id="audio1" src="audio/Ambler.mp3" autoplay loop></audio>
+				</div>
+				<p><a href="http://incompetech.com/music/packs.html">'AMBLER'</a> by <a href="https://visager.bandcamp.com/">KEVIN MACLEOD</a> IS PLAYING SONG! HERE IS LICENSE INFO!</p>
+			</div>
+		</div>
 		<!-- End Audio Player -->
 		
 		<!-- Start Footer -->

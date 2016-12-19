@@ -1,4 +1,5 @@
 /*
+* Info for Joystix Proportional and Monospace
 * Web Fonts from fontspring.com
 * All OpenType features and all extended glyphs have been removed.
 * Fully installable fonts can be purchased at http://www.fontspring.com
@@ -330,4 +331,5 @@ a.ui-button:active,
 /* Align audio information so it's centered under the audio bar */
 .player-wrapper > p {
 	text-align:center;
+    margin-top:0.5rem;
 }
