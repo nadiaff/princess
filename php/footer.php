@@ -4,9 +4,9 @@
 			<div class="top-bar row columns stacked-for-medium footerBar">
 				<div class="top-bar-left">
 					<ul class="vertical medium-horizontal menu">
-						<li><a href="#">CREDITS</a></li>
-						<li><a href="#">SCOREBOARD</a></li>
-						<li><a href="#">OPTIONS</a></li>
+						<li><a href="credits.php">CREDITS</a></li>
+						<li><a href="scoreboard.php">SCOREBOARD</a></li>
+						<li><a href="options.php">OPTIONS</a></li>
 					</ul>
 				</div>
 				<div class="top-bar-right">

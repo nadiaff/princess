@@ -74,10 +74,10 @@
 				<!-- Start Main Menu -->
 				<h2>MAIN MENU</h2>
 				<ul class="heartMenu">
-					<li><a href="#">WORLD SELECT</a></li>
-					<li><a href="#">STORY MODE</a></li>
-					<li><a href="#">HIGH SCORE</a></li>
-					<li><a href="#">OPTIONS</a></li>
+					<li><a href="worlds.php">WORLD SELECT</a></li>
+					<li><a href="story.php">STORY MODE</a></li>
+					<li><a href="scoreboard.php">HIGH SCORE</a></li>
+					<li><a href="options.php">OPTIONS</a></li>
 				</ul>
 				<!-- End Main Menu -->
 				<br />

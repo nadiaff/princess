@@ -8,15 +8,15 @@
 			<div class="top-bar row columns stacked-for-medsmall" id="topnav-animated-menu" data-animate="hinge-in-from-top spin-out">
 				<div class="top-bar-left">
 					<ul class="vertical medium-horizontal menu">
-						<li><a href="#">TITLE SCREEN</a></li>
-						<li><a href="#">INSTRUCTION BOOK</a></li>
+						<li><a href="index.php">TITLE SCREEN</a></li>
+						<li><a href="instructions.php">INSTRUCTION BOOK</a></li>
 						<li><a href="#">PLAY MODE</a></li>
-						<li><a href="#">TIPS &amp; TRICKS</a></li>
+						<li><a href="tipsntricks.php">TIPS &amp; TRICKS</a></li>
 					</ul>
 				</div>
 				<div class="top-bar-right">
 					<ul class="vertical medium-horizontal menu">
-						<li><a href="#">LOGIN/REGISTER</a></li>
+						<li><a href="signin.php">LOGIN/REGISTER</a></li>
 					</ul>
 				</div>
 			</div>
