@@ -345,3 +345,10 @@ a.ui-button:active,
 .thumbnail {
 	margin-bottom: 3rem;
 }
+
+
+/* Game Area Styles */
+iframe {
+	height:500px;
+	width:500px;
+}
