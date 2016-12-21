@@ -348,7 +348,7 @@ a.ui-button:active,
 
 
 /* Origin of Princess Title */
-h2.origin-title {
+.origin-title h2 {
 	margin-top: 2em;
     margin-left: 1.3em;
 }
