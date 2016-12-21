@@ -343,7 +343,7 @@ function gameOver() {
 	restartBtn.draw();
 	
 	//Show the Win Game Button
-	winBtn.draw();
+	//winBtn.draw();
 }
 
 // Function for running the whole animation
