@@ -46,14 +46,15 @@
 /* --Noonye Colors-- */
 /* Yellow
 
+#ffde5a; <-- using this one
 #f8fb56;
-#ffde5a;
 #fbfa00;
 
 */
 
 /* Pink
 
+#f3545d <-- using this one
 #ff737b;
 #fd81bf;
 
@@ -66,6 +67,8 @@
 /* *~*~*~*~*~*~*~*~*~*~*~*~* */
 
 /* Fonts & Colors */
+
+
 
 /* Page Colors */
 
@@ -82,7 +85,7 @@ a  {
 	color: #ffde5a;
 }
 a:hover, a:focus {
-	color: #c5a62b;
+	color: #fdf4d8;
 }
 
 /* Font & Headers */
@@ -172,6 +175,7 @@ hr {
 
 
 /* Insert Quarter Menu Button Styles*/
+
 /* Remove right padding on title bar to remove space between insert quarter button and right side of screen */
 .titleBar {
 	padding-right:0;
@@ -218,6 +222,8 @@ hr {
 /* --End Top Navigation Menu Styles-- */ 
 
 
+
+
 /* --Footer Menu Styles-- */
 /* Remove Top Bar background color from Footer Bar */
 .footerBar, .footerBar ul {
@@ -237,30 +243,42 @@ hr {
 
 
 /* --Heart Shaped Bullet Point Menus-- */
-.heartMenu {
+.heart-menu {
+	list-style: none;
 	margin-left:0;
-	list-style-position: inside;
-	list-style-image: url('img/heart-element-xsmall.png');
+	/*list-style-position: inside;
+	list-style-image: url('img/empty-element-xsmall.png');*/
+}
+ 
+.heart-menu  > li > a, .heart-menu > li {
+	color: white;
+	font-size:1rem;
 }
 
-.heartMenu li, .heartMenu li a {
-	font-size:1 rem;
-	color:white;
-}
-.heartMenu li a:focus, .heartMenu li a:hover {
+.heart-menu > li > a:focus, .heart-menu > li > a:hover  {
 	color:#d4d1d1;
 }
 
+.heart-menu > li > a:before {
+	content: url(img/empty-element-small.png);
+}
+
+.heart-menu > li > a:focus:before, .heart-menu > li > a:hover:before {
+	content: url(img/heart-element-small.png);
+}
+
 @media screen and (min-width: 40em) {
-	.heartMenu li {
+	.heart-menu > li > a {
 		font-size:1.5rem;
 		
 	}
 }
 
-
 /* --End Heart Shaped Bullet Point Menu-- */
+
 /* --End Menu Styles-- */
+
+
 
 
 /* --Button Styles-- */
@@ -274,8 +292,10 @@ hr {
 	background-color: #d54a52;
     color: #fff; 
 }
+/* --End Button Styles-- */
 
-/* Audio Player Styles */
+
+/* --Audio Player Styles-- */
 /* Give the volume slider li a width so that it appears in the layout */
 .volume-slider {
 	width: 7em;
@@ -341,7 +361,9 @@ a.ui-button:active,
     margin-top:0.5rem;
 }
 
-/* Image Styles */
+/* --End Audio Styles-- */
+
+/* --Image Style-- */
 .thumbnail {
 	margin-bottom: 3rem;
 }

@@ -10,31 +10,12 @@
 		<link rel="stylesheet" href="css/jquery-ui.css">
 		<link rel="stylesheet" href="css/foundation-player.css">
 		<link rel="stylesheet" href="css/app.css">
-		
-
 				
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/vendor/foundation.js"></script>
 		<script src="js/foundation-player.js"></script>
-		<script>
-			$(document).ready(function($) {
-				 $(document).foundation();
-				 $('.foundation-player.no-1').foundationPlayer();
-				 $('#audioSlider').slider({
-					orientation: "horizontal",
-					value: audio1.volume,
-					min: 0,
-					max: 1,
-					range: 'min',
-					animate: true,
-					step: .1,
-					slide: function(e, ui) {
-						audio1.volume = ui.value;
-					}
-				});
-			});
-		</script>
+		<script src="js/app.js"></script>
 
 	</head>
 	<body>
@@ -73,12 +54,33 @@
 				<br />
 				<!-- Start Main Menu -->
 				<h2>MAIN MENU</h2>
-				<ul class="heartMenu">
+				<ul class="heart-menu">
 					<li><a href="worlds.php">WORLD SELECT</a></li>
 					<li><a href="story.php">STORY MODE</a></li>
 					<li><a href="scoreboard.php">HIGH SCORE</a></li>
 					<li><a href="options.php">OPTIONS</a></li>
 				</ul>
+				<!-- Sound to play on Menu Item Hover -->
+				<audio id="menu-hover-sfx" preload>
+					<source src="audio/sfx/menu-hover2.wav"></source>
+					<source src="audio/sfx/menu-hover2.ogg"></source>
+					Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
+				</audio>
+				
+				<script>$(".heart-menu a")
+				  .each(function(i) {
+					if (i != 0) { 
+					  $("#menu-hover-sfx")
+						.clone()
+						.attr("id", "menu-hover-sfx" + i)
+						.appendTo($(this).parent()); 
+					}
+					$(this).data("beeper", i);
+				  })
+				  .mouseenter(function() {
+					$("#menu-hover-sfx" + $(this).data("beeper"))[0].play();
+				  });
+				$("#menu-hover-sfx").attr("id", "menu-hover-sfx0");</script>
 				<!-- End Main Menu -->
 				<br />
 			</div>
@@ -111,7 +113,9 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop></audio>
+					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
+					</audio>
 				</div>
 				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
 			</div>
