@@ -349,6 +349,8 @@ a.ui-button:active,
 
 /* Game Area Styles */
 iframe {
+	margin-top:5em;
+	margin-bottom:5em;
 	height:500px;
 	width:500px;
 }
