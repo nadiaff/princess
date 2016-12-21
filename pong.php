@@ -29,7 +29,8 @@
 		<!-- End Top Bar -->
 
 		<div class="columns row medium-4">
-			<h2>ORIGIN OF PRINCESS</h2>
+			<br />
+			<h2 class="origin-title">ORIGIN OF PRINCESS</h2>
 			<iframe style="height:33em; width:33em; margin-top:5em; margin-bottom:5em;" src="games/pong-game.html"></iframe>
 		</div>
 		<!-- Start Footer -->
