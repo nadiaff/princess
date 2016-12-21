@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/foundation-icons.css">
 		<link rel="stylesheet" href="css/app.css">
-		<link rel="stylesheet" href="css/pong.css">
 		
 
 				
@@ -32,7 +31,6 @@
 		<div class="columns row">
 			<iframe src="games/pong-game.html"></iframe>
 		</div>
-		<script src="js/pong.js"></script>
 		<!-- Start Footer -->
 		<?php include 'php/footer.php'; ?>
 		<!-- End Footer -->
