@@ -23,8 +23,8 @@ window.cancelRequestAnimFrame = ( function() {
 // Initialize canvas and required variables
 var canvas = document.getElementById("canvas"),
 		ctx = canvas.getContext("2d"), // Create canvas context
-		W = 600, // Window's width
-		H = 600, // Window's height
+		W = window.innerWidth, // Window's width
+		H = window.innerHeight, // Window's height
 		ball = {}, // Ball object
 		paddles = [2], // Array containing two paddles
 		mouse = {}, // Mouse object to store it's current position
@@ -363,7 +363,7 @@ function btnClick(e) {
 	
 	// Variables for storing mouse position on click
 	var mx = e.pageX,
-		my = e.pageY;
+			my = e.pageY;
 	
 	// Click start button
 	if(mx >= startBtn.x && mx <= startBtn.x + startBtn.w) {

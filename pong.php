@@ -29,16 +29,12 @@
 		<!-- End Navigation -->
 		<!-- End Top Bar -->
 
-		<div class="columns">
-			<canvas id="canvas"></canvas>
-			<audio preload="true" id="collide">
-				<source src="audio/sfx/blip1.wav" />
-				<!--<source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.wav" />-->
-			</audio>
+		<div class="columns row">
+			<iframe src="games/pong-game.html"></iframe>
 		</div>
 		<script src="js/pong.js"></script>
 		<!-- Start Footer -->
-		<?php //include 'php/footer.php'; ?>
+		<?php include 'php/footer.php'; ?>
 		<!-- End Footer -->
 
 	
