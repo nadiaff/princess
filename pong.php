@@ -29,7 +29,7 @@
 		<!-- End Top Bar -->
 
 		<div class="columns row">
-			<iframe src="games/pong-game.html"></iframe>
+			<iframe style="height:500px; width:500px;" src="games/pong-game.html"></iframe>
 		</div>
 		<!-- Start Footer -->
 		<?php include 'php/footer.php'; ?>
