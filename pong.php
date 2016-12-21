@@ -1,0 +1,47 @@
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ORIGIN OF PRINCESS</title>
+		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="css/foundation-icons.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/pong.css">
+		
+
+				
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/foundation.js"></script>
+		<script>
+			$(document).ready(function($) {
+				 $(document).foundation();
+			});
+		</script>
+	</head>
+	<body>
+  
+		<!-- Start Top Bar -->
+		<?php include 'php/titlebar.php'; ?>
+		<!-- Navigation -->
+		<?php include 'php/topnav.php'; ?>
+		<!-- End Navigation -->
+		<!-- End Top Bar -->
+
+		<div class="columns">
+			<canvas id="canvas"></canvas>
+			<audio preload="true" id="collide">
+				<source src="audio/sfx/blip1.wav" />
+				<!--<source src="http://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.wav" />-->
+			</audio>
+		</div>
+		<script src="js/pong.js"></script>
+		<!-- Start Footer -->
+		<?php //include 'php/footer.php'; ?>
+		<!-- End Footer -->
+
+	
+
+	</body>
+</html>
