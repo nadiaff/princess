@@ -348,15 +348,7 @@ a.ui-button:active,
 
 
 /* Origin of Princess Title */
-.origin-title {
-	margin-top: 2em !important;
+h2.origin-title {
+	margin-top: 2em;
     margin-left: 1.3em;
-}
-
-/* Game Area Styles */
-iframe {
-	margin-top:5em;
-	margin-bottom:5em;
-	height:500px;
-	width:500px;
 }
