@@ -7,11 +7,23 @@
 		<!--<div class="top-bar">-->
 			<div class="top-bar row columns stacked-for-medsmall" id="topnav-animated-menu" data-animate="hinge-in-from-top spin-out">
 				<div class="top-bar-left">
-					<ul class="vertical medium-horizontal menu">
+					<ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
 						<li><a href="index.php">TITLE SCREEN</a></li>
 						<li><a href="instructions.php">INSTRUCTION BOOK</a></li>
-						<li><a href="#">PLAY MODE</a></li>
-						<li><a href="tipsntricks.php">TIPS &amp; TRICKS</a></li>
+						<li><a href="#">PLAY MODE</a>
+							<ul class="menu">
+								<li><a href="worlds.php">WORLD SELECT</a></li>
+								<li><a href="story.php">STORY MODE</a></li>
+							</ul>
+						</li>
+						<li><a href="#">CHAT MODE</a>
+							<ul class="menu">
+								<li><a href="#">UPDATE NEWS!</a></li>
+								<li><a href="#">PRINCESS BLOGS</a></li>
+								<li><a href="#">CHAT BOARD</a></li>
+								<li><a href="#">CHAT FUN ROOM</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 				<div class="top-bar-right">
