@@ -3,6 +3,6 @@
 				<h1>OH! TO BE PRINCESS!!</h1>
 			</div>
 			<div class="top-bar-right">
-				<a class="button">INSERT QUARTER</a>
+				<a class="button" href="insertquarter.php">INSERT QUARTER</a>
 			</div>
 		</div>
