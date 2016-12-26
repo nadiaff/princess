@@ -124,8 +124,9 @@ h1, h2, h3, h4, h5, h6, li, .menu a, .button, .title-bar-title {
 }
 
 p {
-	font-family: 'PixAntiqua';
-	font-size: 1.2em;
+	font-family:'Lucida Console', 'Monaco5', monospace;
+	color:#d7cfae;
+	font-size: 1em;
 }
 
 /* Headers on Large Screens */
@@ -337,6 +338,9 @@ hr {
 
 
 /* --Audio Player Styles-- */
+.player-wrapper p {
+	font-family:'joystixproportional';
+}
 .foundation-player {
 	background-color: #1b1b1b;
 }
