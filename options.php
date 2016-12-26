@@ -27,19 +27,34 @@
 		<!-- End Navigation -->
 		<!-- End Top Bar -->
 
-		<div class="row columns centerContent">
+		<div class="row columns">
 			<div class="columns">
 				<br />
-				<h2>WHERE IS PAGE?</h2>
+				<h2>OPTIONS</h2>
 				<br />
-				<p>PAGE HAS NO CONTENTS. YOU CAN COME BACK ANOTHER TIME?</p>
-				<br />
-				<div class="row columns">
-					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
+				<div class="columns">
+					<p>MUSIC?</p>
+					<div class="switch large">
+					  <input class="switch-input" id="yes-no-music" type="checkbox" name="musicSwitch">
+					  <label class="switch-paddle" for="yes-no-music">
+						<span class="show-for-sr">MUSIC?</span>
+						<span class="switch-active" aria-hidden="true">YES</span>
+						<span class="switch-inactive" aria-hidden="true">NO</span>
+					  </label>
 					</div>
+					<br />
+					<p>SOUND EFFECT?</p>
+					<div class="switch large">
+					  <input class="switch-input" id="yes-no-sound" type="checkbox" name="soundSwitch">
+					  <label class="switch-paddle" for="yes-no-sound">
+						<span class="show-for-sr">SOUND EFFECT?</span>
+						<span class="switch-active" aria-hidden="true">YES</span>
+						<span class="switch-inactive" aria-hidden="true">NO</span>
+					  </label>
+					</div>
+					<br />
+					<br />
 				</div>
-				<br />
 			</div>
 		</div>
 		
@@ -70,11 +85,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/13_Just_a_Minuet.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://ozzed.bandcamp.com/album/8-bit-run-n-pun">'JUST A MINUET'</a> BY <a href="http://ozzed.net/">OZZED</a> IS PLAYING SONG! <a href="credits.php#options_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

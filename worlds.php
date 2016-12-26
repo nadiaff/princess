@@ -28,14 +28,14 @@
 		<!-- End Navigation -->
 		<!-- End Top Bar -->
 
-		<div class="row columns centerContent">
+		<div class="row columns center-content">
 			<div class="columns">
 				<br />
 				<!-- Character Select -->
 				<h2>WORLD SELECT</h2>
 				<br />
 				
-				<div class="row small-up-2 medium-up-3 large-up-4">
+				<div class="row small-up-2 medium-up-3 large-up-4 world-select">
 					<div class="column">
 						<h5>SAVE ALL PRINCESS!!</h5>
 						<img class="thumbnail" src="img/Arabian_Dream.png">					
@@ -117,7 +117,7 @@
 					</ul>
 					<audio id="audio1" src="audio/Bit_Quest.mp3" autoplay loop></audio>
 				</div>
-				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> by <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <span data-tooltip aria-haspopup="true" class="has-tip " title="Bit Quest Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/"><a href="http://creativecommons.org/licenses/by/3.0/">SEE LICENSE</a></span>.</p>
+				<p><a href="https://sellfy.com/p/UdAp/">'BIT QUEST'</a> BY <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <a href="credits.php#world_select_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

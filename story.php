@@ -36,7 +36,7 @@
 				<br />
 				<div class="row columns">
 					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
+						<img class="selected" src="img/noonye-derp-bow.gif" />
 					</div>
 				</div>
 				<br />
@@ -70,11 +70,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/Pinball_Spring.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="http://incompetech.com/music/royalty-free/?keywords=pinball">'PINBALL SPRING'</a> BY <a href="http://incompetech.com/">KEVIN MACLEOD</a> IS PLAYING SONG! <a href="credits.php#story_mode_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

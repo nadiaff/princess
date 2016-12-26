@@ -9,7 +9,14 @@
 				<div class="top-bar-left">
 					<ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
 						<li><a href="index.php">TITLE SCREEN</a></li>
-						<li><a href="instructions.php">INSTRUCTION BOOK</a></li>
+						<li><a href="updates.php">UPDATE NEWS!</a></li>
+						<li><a href="#">GUIDE &amp; BOOK</a>
+							<ul class="menu">
+								<li><a href="about.php">ABOUT PRINCESS</a></li>
+								<li><a href="instructions.php">INSTRUCTION BOOKLET</a></li>
+								<li><a href="faq.php">STRATEGY GUIDE (F.A.Q.)</a></li>
+							</ul>
+						</li>
 						<li><a href="#">PLAY MODE</a>
 							<ul class="menu">
 								<li><a href="worlds.php">WORLD SELECT</a></li>
@@ -18,10 +25,10 @@
 						</li>
 						<li><a href="#">CHAT MODE</a>
 							<ul class="menu">
-								<li><a href="#">UPDATE NEWS!</a></li>
-								<li><a href="#">PRINCESS BLOGS</a></li>
+								<li><a href="blogs.php">PRINCESS BLOG</a></li>
 								<li><a href="#">CHAT BOARD</a></li>
 								<li><a href="#">CHAT FUN ROOM</a></li>
+								<li><a href="#">TWITCH PRINCESS</a></li>
 							</ul>
 						</li>
 					</ul>

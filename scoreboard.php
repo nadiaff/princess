@@ -70,11 +70,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/13_March_Of_Infinite_Pride.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://archive.org/details/8bp030">'MARCH OF INFINITE PRIDE'</a> BY <a href="http://rugarandi.com/">RUGAR</a> IS PLAYING SONG! <a href="credits.php#scoreboard_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

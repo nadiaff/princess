@@ -30,15 +30,85 @@
 		<div class="row columns centerContent">
 			<div class="columns">
 				<br />
-				<h2>WHERE IS PAGE?</h2>
+				<h2>CONCEPT CREDITS</h2>
+				<p>The character Noonye belongs to NicPanic. Most content of the website and games were created in collaboration by NicPanic and a penguin.</p>
+				<p>The content of the website and the views expressed on it reflect those of NicPanic and a penguin. They are not necessarily endorsed by any of the other artists or programmers listed below.</p>
 				<br />
-				<p>PAGE HAS NO CONTENTS. YOU CAN COME BACK ANOTHER TIME?</p>
+				<h3>WEBPAGE MUSIC CREDITS &amp; LICENSING INFO</h3>
+				<p>All songs used on the website are under a Creative Commons license of one form or another. See individual song listings below for more information on the musical artists and licensing info for each song. Most artists have information on ways to support them through their webpages. Please consider promoting them, donating to them or commissioning them for their excellent work. 
 				<br />
-				<div class="row columns">
-					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
-					</div>
-				</div>
+				<h4 id="title_screen_license">TITLE SCREEN</h4>
+				<p>Song Title: Royal Entrance</p>
+				<p>Artist: <a href="http://www.visager.us/">Visager</a></p>
+				<p>Album: <a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">Songs From An Unmade World 2</a></p>
+				<p>Licensed under Creative Commons: By Attribution 4.0 International License <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a> </p>
+				<br />
+				<h4 id="world_select_license">WORLD SELECT</h4>
+				<p>Song Title: Bit Quest</p>
+				<p>Artist: <a href="http://www.incompetech.com/">Kevin MacLeod (incompetech.com)</a></p>
+				<p>Album: N/A</p>
+				<p>Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a></p>
+				<br />
+				<h4 id="story_mode_license">STORY MODE</h4>
+				<p>Song Title: Pinball Spring</p>
+				<p>Artist: <a href="http://www.incompetech.com/">Kevin MacLeod (incompetech.com)</a></p>
+				<p>Album: N/A</p>
+				<p>Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a></p>
+				<br />
+				<h4 id="instruction_booklet_license">INSTRUCTION BOOKLET</h4>
+				<p>Song Title: Shrine</p>
+				<p>Artist: <a href="http://www.visager.us/">Visager</a></p>
+				<p>Album: <a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world">Songs From An Unmade World</a></p>
+				<p>Licensed under Creative Commons: By Attribution 4.0 International License <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a> </p>
+				<br />
+				<h4 id="insert_quarter_license">INSERT QUARTER</h4>
+				<p>Song Title: Leafless Quince Tree </p>
+				<p>Artist: <a href="http://rolemusic.sawsquarenoise.com/">Rolemusic</a></p>
+				<p>Album: <a href="https://archive.org/details/Straw_Fields-8753">Straw Fields</a></p>
+				<p>Licensed under Creative Commons: By Attribution 4.0 International License <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a> </p>
+				<br />
+				<h4 id="update_news_license">UPDATE NEWS</h4>
+				<p>Song Title: Blip Stream </p>
+				<p>Artist: <a href="http://www.incompetech.com/">Kevin MacLeod (incompetech.com)</a></p>
+				<p>Album: N/A</p>
+				<p>Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a></p>
+				<br />
+				<h4 id="princess_blog_license">PRINCESS BLOG</h4>
+				<p>Song Title: I Like Jump Rope</p>
+				<p>Artist: <a href="http://ozzed.net/">Ozzed</a></p>
+				<p>Album: <a href="https://ozzed.bandcamp.com/album/8-bit-empire">8-Bit Empire</a></p>
+				<p>Licensed under Creative Commons: By Attribution ShareAlike 3.0 Unported License <a href="https://creativecommons.org/licenses/by-sa/3.0/">https://creativecommons.org/licenses/by-sa/3.0/</a> </p>
+				<br />				
+				<h4 id="scoreboard_license">SCOREBOARD</h4>
+				<p>Song Title: March of Infinite Pride</p>
+				<p>Artist: <a href="http://rugarandi.com/">Rugar</a></p>
+				<p>Album: <a href="https://archive.org/details/8bp030">My Girl, The Princess</a></p>
+				<p>Licensed under Creative Commons: By Attribution - No Derivatives - Non-Commercial 1.0 Generic License <a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">https://creativecommons.org/licenses/by-nd-nc/1.0/</a> </p>
+				<br />
+				<h4 id="login_register_license">LOGIN/REGISTER</h4>
+				<p>Song Title: Itty Bitty 8 Bit</p>
+				<p>Artist: <a href="http://www.incompetech.com/">Kevin MacLeod (incompetech.com)</a></p>
+				<p>Album: N/A</p>
+				<p>Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a></p>
+				<br />
+				<h4 id="options_license">OPTIONS</h4>
+				<p>Song Title: Just A Minuet</p>
+				<p>Artist: <a href="http://ozzed.net/">Ozzed</a></p>
+				<p>Album: <a href="https://ozzed.bandcamp.com/album/8-bit-run-n-pun">8-bit Run 'n Pun</a></p>
+				<p>Licensed under Creative Commons: By Attribution ShareAlike 3.0 Unported License <a href="https://creativecommons.org/licenses/by-sa/3.0/">https://creativecommons.org/licenses/by-sa/3.0/</a> </p>
+				<br />
+				<h4 id="credits_license">CREDITS</h4>
+				<p>Song Title: She Is My Best Treasure</p>
+				<p>Artist: <a href="http://rolemusic.sawsquarenoise.com/">Rolemusic</a></p>
+				<p>Album: <a href="https://archive.org/details/enrmp329_rolemusic_-_the_pirate_and_the_dancer">The Pirate and the Dancer</a></p>
+				<p>Licensed under Creative Commons: By Attribution 4.0 International License <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a> </p>
+				<br />
+				<br />
+				<h3>GAME WORLD CREDITS</h3>
+				<h4>ORIGIN OF PRINCESS</h4>
+				<p>Code adapted by a penguin from this <a href="http://cssdeck.com/labs/full/ping-pong-game-tutorial-with-html5-canvas-and-sounds">Ping Pong Game tutorial</a> written by <a href="http://kushagra.me/">Kushagra Agarwal</a>.</p>
+				<p>Sound effects created by a penguin using <a href="http://www.bfxr.net/">Bfxr</a>.</p>
+				<br 
 				<br />
 			</div>
 		</div>
@@ -70,11 +140,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/05_rolemusic_-_she_is_my_best_treasure.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://archive.org/details/enrmp329_rolemusic_-_the_pirate_and_the_dancer">'SHE IS MY BEST TREASURE'</a> BY <a href="http://rolemusic.sawsquarenoise.com/">ROLEMUSIC</a> IS PLAYING SONG! <a href="credits.php#credits_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

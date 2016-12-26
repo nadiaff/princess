@@ -30,7 +30,7 @@
 		<div class="row columns centerContent">
 			<div class="columns">
 				<br />
-				<h2>WHERE IS PAGE?</h2>
+				<h2>INSTRUCTION BOOKLET</h2>
 				<br />
 				<p>PAGE HAS NO CONTENTS. YOU CAN COME BACK ANOTHER TIME?</p>
 				<br />
@@ -70,11 +70,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/Visager_-_Songs_from_an_Unmade_World_-_03_Shrine.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world">'SHRINE'</a> by <a href="http://www.visager.us/">VISAGER</a> IS PLAYING SONG! <a href="credits.php#instruction_booklet_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->

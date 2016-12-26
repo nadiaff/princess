@@ -74,11 +74,13 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/Rolemusic_-_02_-_Leafless_Quince_Tree.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://archive.org/details/Straw_Fields-8753">'LEAFLESS QUINCE TREE'</a> BY <a href="http://rolemusic.sawsquarenoise.com/">ROLEMUSIC</a> IS PLAYING SONG! <a href="credits.php#insert_quarter_license">SEE LICENSE</a>.</p>
+			</div>
+			</div>
 			</div>
 		</div>
 		<!-- End Audio Player -->

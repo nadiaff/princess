@@ -62,7 +62,7 @@
 				</ul>
 				<!-- Sound to play on Menu Item Hover -->
 				<audio id="menu-hover-sfx" preload>
-					<source src="audio/sfx/menu-hover2.wav"></source>
+					<source src="audio/sfx/menu-hover7.mp3"></source>
 					<source src="audio/sfx/menu-hover2.ogg"></source>
 					Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 				</audio>
@@ -113,11 +113,11 @@
 							<div id="audioSlider"></div>
 						</li>
 					</ul>
-					<audio id="audio1" src="audio/Visager_-_02_-_Royal_Entrance.mp3" autoplay loop>
+					<audio id="audio1" src="audio/Visager_-_Songs_From_An_Unmade_World_2_-_18_Royal_Entrance_-Loop-.mp3" autoplay loop>
 						Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 					</audio>
 				</div>
-				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'Royal Entrance'</a> by <a href="https://visager.bandcamp.com/">Visager</a> IS PLAYING SONG!</p>
+				<p><a href="https://visager.bandcamp.com/album/songs-from-an-unmade-world-2">'ROYAL ENTRANCE'</a> BY <a href="https://www.visager.us/">VISAGER</a> IS PLAYING SONG! <a href="credits.php#title_screen_license">SEE LICENSE</a>.</p>
 			</div>
 		</div>
 		<!-- End Audio Player -->
