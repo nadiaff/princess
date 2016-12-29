@@ -20,25 +20,24 @@
 		<!-- End Navigation -->
 		<!-- End Top Bar -->
 
-		<div class="row columns centerContent">
+		<div class="row columns scoreboard">
 			<div class="columns">
-				<br />
+				<br>
 
 				<div class="row">
 					<div class="columns medium-3">
-						<h3>SCOREBOARD</h3>
-						<a class="button">Hi-Score</a>
-						<a class="button float-right">My Score</a>
+						<a class="button">HI-SCORE</a>
+						<a class="button float-right">MY SCORE</a>
+
 						<h4>GAME LIST</h4>
-						<ul>
-							<li>ORIGIN OF PRINCESS</li>
-							<li>OH! THE GALACTIC!!</li>
-							<li>FOOD ATTACK PRINCESS</li>
-							<li>PAKU PAKU PRINCESS</li>
-						</ul>
+						<a href="#">ORIGIN OF PRINCESS</a><br>
+						<a href="#">OH! THE GALACTIC!!</a><br>
+						<a href="#">FOOD ATTACK PRINCESS</a><br>
+						<a href="#">PAKU PAKU PRINCESS</a><br>
 					</div>
 					<div class="columns medium-8 medium-offset-1">
 						<div class="row">
+							<h3>HIGH SCORE</h3>
 							<table class="unstriped stacked">
 								<thead>
 									<tr>

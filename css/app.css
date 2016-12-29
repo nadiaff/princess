@@ -509,8 +509,11 @@ a.ui-button:active,
 
 /* *~*~*~*~*~ Hi Score Page *~*~*~*~*~ */
 
-.scoreboard {
-	padding-left:0;
+.scoreboard ul {
+	list-style-type:none;
+}
+
+.scoreboard .button {
 }
 
 table {
