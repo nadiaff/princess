@@ -29,10 +29,12 @@
 						<a class="button">HI-SCORE</a>
 						<a class="button float-right">MY SCORE</a>
 						<h4>GAME LIST</h4>
-						<a href="#">ORIGIN OF PRINCESS</a><br>
-						<a href="#">OH! THE GALACTIC!!</a><br>
-						<a href="#">FOOD ATTACK PRINCESS</a><br>
-						<a href="#">PAKU PAKU PRINCESS</a><br>
+						<ul>
+							<li><a href="#">ORIGIN OF PRINCESS</a></li>
+							<li><a href="#">OH! THE GALACTIC!!</a></li>
+							<li><a href="#">FOOD ATTACK PRINCESS</a></li>
+							<li><a href="#">PAKU PAKU PRINCESS</a></li>
+						</ul>
 					</div>
 					<div class="columns medium-8 medium-offset-1">
 						<div class="row">
