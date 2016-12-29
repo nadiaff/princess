@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -33,21 +26,21 @@
 				<h2>OPTIONS</h2>
 				<br />
 				<div class="columns">
-					<p>MUSIC?</p>
+					<p>AUTO PLAY MUSIC?</p>
 					<div class="switch large">
 					  <input class="switch-input" id="yes-no-music" type="checkbox" name="musicSwitch">
 					  <label class="switch-paddle" for="yes-no-music">
-						<span class="show-for-sr">MUSIC?</span>
+						<span class="show-for-sr">AUTO PLAY MUSIC?</span>
 						<span class="switch-active" aria-hidden="true">YES</span>
 						<span class="switch-inactive" aria-hidden="true">NO</span>
 					  </label>
 					</div>
 					<br />
-					<p>SOUND EFFECT?</p>
+					<p>PLAY SOUND EFFECT?</p>
 					<div class="switch large">
 					  <input class="switch-input" id="yes-no-sound" type="checkbox" name="soundSwitch">
 					  <label class="switch-paddle" for="yes-no-sound">
-						<span class="show-for-sr">SOUND EFFECT?</span>
+						<span class="show-for-sr">PLAY SOUND EFFECT?</span>
 						<span class="switch-active" aria-hidden="true">YES</span>
 						<span class="switch-inactive" aria-hidden="true">NO</span>
 					  </label>

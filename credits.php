@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -27,13 +20,15 @@
 		<!-- End Navigation -->
 		<!-- End Top Bar -->
 
-		<div class="row columns centerContent">
+		<div class="row columns credits-page">
 			<div class="columns">
 				<br />
 				<h2>CONCEPT CREDITS</h2>
 				<p>The character Noonye belongs to NicPanic. Most content of the website and games were created in collaboration by NicPanic and a penguin.</p>
 				<p>The content of the website and the views expressed on it reflect those of NicPanic and a penguin. They are not necessarily endorsed by any of the other artists or programmers listed below.</p>
 				<br />
+				<h3>WEBSITE CODE CREDITS</h3>
+				<p>Sound effects on mouse over adapted from <a href="https://css-tricks.com/play-sound-on-hover/">code found here</a>.</p>
 				<h3>WEBPAGE MUSIC CREDITS &amp; LICENSING INFO</h3>
 				<p>All songs used on the website are under a Creative Commons license of one form or another. See individual song listings below for more information on the musical artists and licensing info for each song. Most artists have information on ways to support them through their webpages. Please consider promoting them, donating to them or commissioning them for their excellent work. 
 				<br />
@@ -105,10 +100,12 @@
 				<br />
 				<br />
 				<h3>GAME WORLD CREDITS</h3>
+				<br />
 				<h4>ORIGIN OF PRINCESS</h4>
 				<p>Code adapted by a penguin from this <a href="http://cssdeck.com/labs/full/ping-pong-game-tutorial-with-html5-canvas-and-sounds">Ping Pong Game tutorial</a> written by <a href="http://kushagra.me/">Kushagra Agarwal</a>.</p>
 				<p>Sound effects created by a penguin using <a href="http://www.bfxr.net/">Bfxr</a>.</p>
-				<br 
+				<br />
+				<br />
 				<br />
 			</div>
 		</div>

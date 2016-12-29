@@ -64,6 +64,29 @@ font-weight: normal;
 src: local('PixAntiqua'), url('font/PixAntiqua.woff') format('woff');
 }
 
+/* Google Web Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Dhurjati|Dr+Sugiyama|Duru+Sans|Fira+Mono|Galdeano|Geo|Gidugu|Inconsolata|Jockey+One|Mallanna|Press+Start+2P|Quantico|Share+Tech|Source+Code+Pro|Ubuntu+Mono|VT323|Yatra+One');
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Quantico', sans-serif;
+font-family: 'Jockey One', sans-serif;
+font-family: 'VT323', monospace;
+font-family: 'Yatra One', cursive;
+font-family: 'Duru Sans', sans-serif;
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Mallanna', sans-serif;
+font-family: 'Fira Mono', monospace;
+font-family: 'Geo', sans-serif;
+font-family: 'Share Tech', sans-serif;
+font-family: 'Galdeano', sans-serif;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Gidugu', sans-serif;
+font-family: 'Dhurjati', sans-serif; */
+
 /* --Retro Aesthetics-- */
 
 /* --Noonye Colors-- */
@@ -100,6 +123,7 @@ body {
 	background-color:black;
 	color:white;
 	font-family: 'joystixproportional';
+	text-transform: uppercase;
 	
 }
 
@@ -108,13 +132,13 @@ a  {
 	color: #ffde5a;
 }
 a:hover, a:focus {
-	color: #fdf4d8;
+	color: #efebe1;
 }
 
 /* Font & Headers */
 
 /* Give a margin to the h1 page title */
-h1 {
+h2 {
 	margin-top:.5rem;
 }
 
@@ -123,10 +147,33 @@ h1, h2, h3, h4, h5, h6, li, .menu a, .button, .title-bar-title {
 	font-family: 'joystixproportional';
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+	color:#efebe1;
+}
+
 p {
-	font-family:'Lucida Console', 'Monaco5', monospace;
-	color:#d7cfae;
-	font-size: 1em;
+	/*font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-family:'Lucida Console', 'Monaco5', monospace;*/
+	font-family: 'Press Start 2P', cursive;
+	/*font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Quantico', sans-serif;
+	font-family: 'Jockey One', sans-serif;
+	font-family: 'VT323', monospace;
+	font-family: 'Yatra One', cursive;
+	font-family: 'Duru Sans', sans-serif;
+	font-family: 'Anonymous Pro', monospace;
+	font-family: 'Mallanna', sans-serif;
+	font-family: 'Fira Mono', monospace;
+	font-family: 'Geo', sans-serif;
+	font-family: 'Share Tech', sans-serif;
+	font-family: 'Galdeano', sans-serif;
+	font-family: 'Dr Sugiyama', cursive;
+	font-family: 'Gidugu', sans-serif
+	font-family: 'Dhurjati', sans-serif;
+	color:#b3a15c;*/
+	color:#f5efdc;
+	font-size: .7em;
 }
 
 /* Headers on Large Screens */
@@ -293,7 +340,7 @@ hr {
 }
  
 .heart-menu  > li > a, .heart-menu > li {
-	color: white;
+	color:#efebe1;
 	font-size:1rem;
 }
 
@@ -340,6 +387,7 @@ hr {
 /* --Audio Player Styles-- */
 .player-wrapper p {
 	font-family:'joystixproportional';
+	font-size:1.2em;
 }
 .foundation-player {
 	background-color: #1b1b1b;
@@ -413,6 +461,7 @@ a.ui-button:active,
 
 /* --Image Style-- */
 .thumbnail {
+    border: solid 4px #f5efdc;
 	margin-bottom: 3rem;
 }
 
@@ -451,3 +500,43 @@ a.ui-button:active,
 	color: #f3545d;
 }
 
+/* *~*~*~*~*~ Credits Page *~*~*~*~*~ */
+
+.credits-page p {
+	font-family: 'Fira Mono', monospace;
+	font-size:1em;
+}
+
+/* *~*~*~*~*~ Hi Score Page *~*~*~*~*~ */
+
+.scoreboard {
+	padding-left:0;
+}
+
+table {
+	border-color:#000;
+}
+
+table thead {
+    background: #000;
+    color: #efebe1;
+}
+
+table thead, table tbody, table tfoot {
+    border: none;
+    background-color: #000;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #000;
+}
+@media screen and (min-width: 40em) {
+	table thead th, table thead td, table tfoot th, table tfoot td {
+		font-weight: normal;
+		font-size: 1.5rem;
+	}
+	
+	table tbody th, table tbody td {
+		font-size: 1.3rem;
+	}
+}

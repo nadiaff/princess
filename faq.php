@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -28,18 +21,27 @@
 		<!-- End Top Bar -->
 
 		<div class="row columns centerContent">
-			<div class="columns">
+			<div class="columns large-6">
 				<br />
-				<h2>WHERE IS PAGE?</h2>
-				<br />
-				<p>PAGE HAS NO CONTENTS. YOU CAN COME BACK ANOTHER TIME?</p>
-				<br />
-				<div class="row columns">
-					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
-					</div>
+				<div class="row">
+					<div class="columns small-1">Q</div>
+					<div class="columns small-11"><em>WHAT IS PRINCESS?</em></div>
+				</div>
+				<div class="row">
+					<div class="medium-1 columns">A</div>
+					<div class="medium-11 columns">PRINCESS IS THE FUN TO BE.</div>
 				</div>
 				<br />
+				<div class="row">
+					<div class="columns small-1">Q</div>
+					<div class="small-11 columns"><em>WHO IS NOONYE?</em></div>
+				</div>
+				<div class="row">
+					<div class="medium-1 columns">A</div>
+					<div class="medium-11 columns">NOONYE IS PRINCESS OF MAGIC LAND WHO FIND OTHER PRINCESS TO TEACH PRINCESS THING.</div>
+				</div>
+				<br />
+				
 			</div>
 		</div>
 		

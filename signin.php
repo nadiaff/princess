@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>

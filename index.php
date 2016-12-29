@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -67,20 +60,8 @@
 					Your browser doesn't support this audio thingy. Get another one if you want to hear noises.
 				</audio>
 				
-				<script>$(".heart-menu a")
-				  .each(function(i) {
-					if (i != 0) { 
-					  $("#menu-hover-sfx")
-						.clone()
-						.attr("id", "menu-hover-sfx" + i)
-						.appendTo($(this).parent()); 
-					}
-					$(this).data("beeper", i);
-				  })
-				  .mouseenter(function() {
-					$("#menu-hover-sfx" + $(this).data("beeper"))[0].play();
-				  });
-				$("#menu-hover-sfx").attr("id", "menu-hover-sfx0");</script>
+				<script src="js/sfx-menu.js"></script>
+	
 				<!-- End Main Menu -->
 				<br />
 			</div>

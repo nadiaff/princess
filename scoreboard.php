@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -30,17 +23,87 @@
 		<div class="row columns centerContent">
 			<div class="columns">
 				<br />
-				<h2>WHERE IS PAGE?</h2>
-				<br />
-				<p>PAGE HAS NO CONTENTS. YOU CAN COME BACK ANOTHER TIME?</p>
-				<br />
-				<div class="row columns">
-					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
+
+				<div class="row">
+					<div class="columns medium-3">
+						<h3>SCOREBOARD</h3>
+						<a class="button">Hi-Score</a>
+						<a class="button float-right">My Score</a>
+						<h4>GAME LIST</h4>
+						<ul>
+							<li>ORIGIN OF PRINCESS</li>
+							<li>OH! THE GALACTIC!!</li>
+							<li>FOOD ATTACK PRINCESS</li>
+							<li>PAKU PAKU PRINCESS</li>
+						</ul>
+					</div>
+					<div class="columns medium-8 medium-offset-1">
+						<div class="row">
+							<table class="unstriped stacked">
+								<thead>
+									<tr>
+										<th>RANK</th>
+										<th>SCORE</th>
+										<th>NAME</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1ST
+										<td>599383</td>
+										<td>ABC</td>
+									</tr>
+									<tr>
+										<td>2ND</td>
+										<td>52111</td>
+										<td>BBQ</td>
+									</tr>
+									<tr>
+										<td>3RD</td>
+										<td>40082</td>
+										<td>OMG</td>
+									</tr>
+									<tr>
+										<td>4TH</td>
+										<td>37599</td>
+										<td>WTF</td>
+									</tr>
+									<tr>
+										<td>5TH</td>
+										<td>32001</td>
+										<td>LOL</td>
+									</tr>
+									<tr>
+										<td>6TH</td>
+										<td>25022</td>
+										<td>CAT</td>
+									</tr>
+									<tr>
+										<td>7TH</td>
+										<td>19926</td>
+										<td>ANT</td>
+									</tr>
+									<tr>
+										<td>8TH</td>
+										<td>15333</td>
+										<td>WAT</td>
+									</tr>
+									<tr>
+										<td>9TH</td>
+										<td>1654</td>
+										<td>HOW</td>
+									</tr>
+									<tr>
+										<td>10TH</td>
+										<td>33</td>
+										<td>WHY</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
-				<br />
-			</div>
+			</div>	
 		</div>
 		
 		<!-- Start Audio Player -->

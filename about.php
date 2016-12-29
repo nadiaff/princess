@@ -5,17 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
 
 	</head>
 	<body>
@@ -32,17 +25,21 @@
 				<br />
 				<h2>ABOUT PRINCESS</h2>
 				<br />
-				<p>PRINCESS NIC IS MAKING PRINCESS NOONYE FIFTEEN YEARS AGO. ORIGIN IS THAT NOONYE WAS PRINCESS WHO SAVES PRINCESS BY TEACHING THEM FUN AND GOOD TIMES FOR DANCING, TEACHING PRINCESS THING TO PRINCESS FOR BETTER HAPPINESS AND GOOD FRIENDS!! THE TOOL TO USE IS RPGMAKER.</p>
+				<p>PRINCESS NIC IS MAKING PRINCESS NOONYE FIFTEEN YEARS AGO.</p>
+				<br />
+				<p>ORIGIN IS THAT NOONYE WAS PRINCESS WHO SAVES PRINCESS BY TEACHING THEM FUN</p>
+				<p>AND GOOD TIMES FOR DANCING. TEACHING PRINCESS THING TO PRINCESS</p>
+				<p>FOR BETTER HAPPINESS AND GOOD FRIENDS!! THE TOOL TO USE IS RPGMAKER.</p>
+				<br />
 				<p>THEN A SAD THING. THE GAME GETS DELETED BY AN ACCIDENTAL OTHER PERSON.</p>
+				<br />
 				<p>FIFTEEN YEARS HAPPENS LATER....</p>
-				<p>PRINCESS NIC HAS FRIEND THAT IS A PENGUIN. A PENGUIN IS THE WEBMAKER TO BE. THEY MAKE WEBPAGE FOR NOONYE.</p>
+				<br />
+				<p>PRINCESS NIC HAS FRIEND THAT IS A PENGUIN. A PENGUIN IS THE WEBMAKER TO BE.</p>
+				<p>THEY MAKE WEBPAGE FOR NOONYE.</p>
+				<br />
 				<p>YOU CAN ALSO READ MORE INFORMATION ABOUT THIS THINGS <a href="#">HERE</a>.</p>
 				<br />
-				<div class="row columns">
-					<div class="medium-4 columns">
-						<img class="selected" src="img/noonye-dancing.gif" />
-					</div>
-				</div>
 				<br />
 			</div>
 		</div>

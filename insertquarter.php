@@ -5,18 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>OH! TO BE PRINCESS!!</title>
 		<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/foundation-icons.css">
-		<link rel="stylesheet" href="css/jquery-ui.css">
-		<link rel="stylesheet" href="css/foundation-player.css">
-		<link rel="stylesheet" href="css/app.css">
-				
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/foundation-player.js"></script>
-		<script src="js/app.js"></script>
-
+		<?php 
+			include 'cssincludes.php'; 
+			include 'jsincludes.php';
+		?>
+		<script src="js/quarter-sfx.js"></script>
 	</head>
 	<body>
   
@@ -32,12 +25,20 @@
 				<br />
 				<h2>INSERT QUARTER AND GIVE CAKE MONEY</h2>
 				<br />
-				<p>IF YOU ENJOY THIS SITE, PLEASE CONSIDER HELP OUT REAL LIFE PRINCESS DOWN ON THEIR LUCKS. :C</p>
+				<p>IF YOU ENJOY THIS SITE, PLEASE CONSIDER HELP OUT REAL LIFE PRINCESS DOWN ON THEIR LUCKS.</p>
 				<p>INSERT MANY QUARTER. THEN PRINCESS IS SAVED. \o/</p>
+				<br />
 				<p>STORY OF PRINCESS MAKERS:</p>
-				<p>ONCE UPON A TIME THERE IS TWO PRINCESS. PRINCESS PENGUIN AND PRINCESS NIC. THEY LIVE IN STUFFED ANIMAL KINGDOM WITH MANY FRIENDS. ALAS, NOT EVERYONE IN COUNTRY IS FRIENDS. THERE IS ENEMY.</p>
-				<p>'ANXIETY' AND 'DEPRESSION' ARE TWO VILLAIN WHO LIVE IN KINGDOM. CONSISTENT WORK ETHIC IS IMPOSSIBLE WITH THIS ENEMIES IN KINGDOM. PRINCESS FIGHT THEM EVERYDAY. SOME DAYS WIN, SOME DAYS LOSE. </p>
+				<p>ONCE UPON A TIME THERE IS TWO PRINCESS. PRINCESS PENGUIN AND PRINCESS NIC.</p>
+				<p>THEY LIVE IN STUFFED ANIMAL KINGDOM WITH MANY FRIENDS.</p> 
+				<p>ALAS, NOT EVERYONE IN COUNTRY IS FRIENDS. THERE IS ENEMY.</p>
+				<br />
+				<p>'ANXIETY' AND 'DEPRESSION' ARE TWO VILLAIN WHO LIVE IN KINGDOM.</p> 
+				<p>CONSISTENT WORK ETHIC IS IMPOSSIBLE WITH THIS ENEMIES IN KINGDOM. PRINCESS FIGHT THEM EVERYDAY.</p> 
+				<p>SOME DAYS WIN, SOME DAYS LOSE. </p>
+				<br />
 				<p>SOME DAYS NO MONEY FOR GROCERY. NO GROCERY MEANS NO CAKE.</p>
+				<br />
 				<p>FOR PRINCESS, CAKE IS LIFE.</p>
 				<br />
 				<br />
