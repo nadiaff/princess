@@ -131,7 +131,7 @@ body {
 a  {
 	color: #ffde5a;
 }
-a:hover, a:focus {
+a:hover, a:focus, .scoreboard ul > li > .currentLink:hover, .scoreboard ul > li > .currentLink:focus {
 	color: #efebe1;
 }
 
@@ -335,8 +335,6 @@ hr {
 .heart-menu {
 	list-style: none;
 	margin-left:0;
-	/*list-style-position: inside;
-	list-style-image: url('img/empty-element-xsmall.png');*/
 }
  
 .heart-menu  > li > a, .heart-menu > li {
@@ -392,6 +390,7 @@ hr {
 .foundation-player {
 	background-color: #1b1b1b;
 }
+
 /* Give the volume slider li a width so that it appears in the layout */
 .volume-slider {
 	width: 7em;
@@ -443,7 +442,7 @@ a.ui-button:active,
 
 /* Changes color of volume slider background */
 .ui-widget-content {
-	background:#d7cfae;
+	background:#efebe1;
 }
 
 /* Change font to monospace so the controls don't jump around when the numbers change*/
@@ -511,6 +510,19 @@ a.ui-button:active,
 
 .scoreboard ul {
 	list-style-type:none;
+	margin-left:0;
+}
+
+.scoreboard ul > li > a:before {
+	content: url(img/emptystar-element-sm.gif);
+}
+
+.scoreboard ul > li > .currentLink:before {
+	content: url(img/star-element-sm.gif);
+}
+
+.scoreboard ul > li > .currentLink {
+	color: #f3bb12;
 }
 
 table {

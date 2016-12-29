@@ -30,7 +30,7 @@
 						<a class="button float-right">MY SCORE</a>
 						<h4>GAMES</h4>
 						<ul>
-							<li><a href="#">ORIGIN OF PRINCESS</a></li>
+							<li><a class="currentLink" href="#">ORIGIN OF PRINCESS</a></li>
 							<li><a href="#">OH! THE GALACTIC!!</a></li>
 							<li><a href="#">FOOD ATTACK PRINCESS</a></li>
 							<li><a href="#">PAKU PAKU PRINCESS</a></li>
