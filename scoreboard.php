@@ -28,7 +28,7 @@
 					<div class="columns medium-3">
 						<a class="button">HI-SCORE</a>
 						<a class="button float-right">MY SCORE</a>
-						<h4>GAME LIST</h4>
+						<h4>GAMES</h4>
 						<ul>
 							<li><a href="#">ORIGIN OF PRINCESS</a></li>
 							<li><a href="#">OH! THE GALACTIC!!</a></li>
